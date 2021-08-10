@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* reset 시작 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* reset 끝 */
+
+/* div#wrap 시작 */
+
+div#wrap {
+  width: 700px;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+/* div#wrap 끝 */
+/* header#header 시작 */
+
+header#header {
+  background-color: #f19120;
+  color: #fff;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 80px;
+}
+
+#header h3 {
+  font-weight: normal;
+  padding: 10px 0;
+}
+
+#header p {
+  color: #000;
+  background-color: #adb398;
+  font-size: 13px;
+  height: 22px;
+  line-height: 22px;
+}
+
+/* header#header 끝 */
+/* main#main 시작 */
+/* nav#gnb 시작 */
+
+main#main #gnb h3 {
+  background-color: #661406;
+  color: #fff;
+  font-weight: normal;
+  padding: 6px;
+}
+
+nav#gnb ul#mainMenu {
+  padding: 6px;
+}
+
+nav#gnb a {
+  color: #242120;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+/* nav#gnb 끝 */
+/* div#contents 시작 */
+
+#main div#contents {
+  background-color: #c1c7bd;
+  padding: 8px 8px 12px 6px;
+}
+
+#contents article {
+  margin-bottom: 20px;
+}
+
+#contents h3 {
+  background-color: #01222b;
+  color: #c1c7bd;
+  padding: 4px;
+  font-size: 14px;
+}
+
+#contents h4 {
+  margin: 16px 0;
+}
+
+#contents p {
+  font-size: 12px;
+}
+
+/* div#contents 끝 */
+/* aside#notice 시작 */
+
+aside#notice div.schedule {
+  margin: 12px 0;
+}
+
+aside#notice h1 span {
+  text-decoration: underline;
+}
+
+aside#notice h1 span:first-child {
+  color: #8d9785;
+}
+
+aside#notice h1 span:nth-child(2) {
+  color: #f1c916;
+}
+
+#notice div#noticeList a {
+  color: #000;
+}
+
+/* aside#notice 끝 */
+/* main#main 끝 */
+/* footer#footer */
+
+footer#footer {
+  background-color: #022227;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  padding: 8px;
+}
+
+/* footer#footer */
