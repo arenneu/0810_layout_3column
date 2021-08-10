@@ -49,9 +49,29 @@ header#header {
 
 /* header#header 끝 */
 /* main#main 시작 */
+/* display:table 레이아웃 적용 시작 */
+main#main {
+  display: table;
+}
+
+div.tblRow {
+  display: table-row;
+}
+
+div.tblCell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* display:table 레이아웃 적용 끝 */
+
 /* nav#gnb 시작 */
 
-main#main #gnb h3 {
+main#main nav#gnb {
+  width: 150px;
+}
+
+#main #gnb h3 {
   background-color: #661406;
   color: #fff;
   font-weight: normal;
@@ -73,6 +93,7 @@ nav#gnb a {
 /* div#contents 시작 */
 
 #main div#contents {
+  width: 350px;
   background-color: #c1c7bd;
   padding: 8px 8px 12px 6px;
 }
@@ -98,6 +119,11 @@ nav#gnb a {
 
 /* div#contents 끝 */
 /* aside#notice 시작 */
+
+aside#notice {
+  padding: 6px;
+  width: 190px;
+}
 
 aside#notice div.schedule {
   margin: 12px 0;

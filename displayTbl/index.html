@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>실습</title>
+    <title>float 레이아웃 3열</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -16,7 +16,9 @@
         </header>
         <!-- header#header -->
         <main id="main">
-            <nav id="gnb">
+            <!-- display:table -->
+            <div class="tblRow">
+            <nav id="gnb" class="tblCell">
                 <h3>ARTIST</h3>
                 <ul id="mainMenu">
                     <li class="mainLi"><a href="#">작가의 작품</a></li>
@@ -25,7 +27,7 @@
                 </ul>
             </nav>
             <!-- nav#gnb -->
-            <div id="contents">
+            <div id="contents" class="tblCell">
                 <article>
                     <h3>피리부는 소년</h3>
                     <h4>에두아르마네</h4>
@@ -43,10 +45,10 @@
                 </article>
             </div>
             <!-- div#contents -->
-            <aside id="notice">
+            <aside id="notice" class="tblCell">
                 <h1>
                     <span>전세계인들에게</span>
-                    <span>제일 사랑받는</span>
+                    <span>제일 사랑받는</span><br>
                     서양미술사의 시대
                 </h1>
                 <div id="noticeList">
@@ -67,6 +69,8 @@
                 </div>
             </aside>
             <!-- aside#notice -->
+        </div>
+        <!-- div.tblRow, display:table-row적용  -->
         </main>
         <!-- main#main -->
         <footer id="footer">
