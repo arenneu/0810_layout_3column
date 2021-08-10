@@ -49,7 +49,16 @@ header#header {
 
 /* header#header 끝 */
 /* main#main 시작 */
+
+main#main {
+  display: flex;
+}
+
 /* nav#gnb 시작 */
+
+main#main #gnb {
+  width: 160px;
+}
 
 main#main #gnb h3 {
   background-color: #661406;
@@ -75,6 +84,7 @@ nav#gnb a {
 #main div#contents {
   background-color: #c1c7bd;
   padding: 8px 8px 12px 6px;
+  flex: 1;
 }
 
 #contents article {
@@ -98,6 +108,11 @@ nav#gnb a {
 
 /* div#contents 끝 */
 /* aside#notice 시작 */
+
+aside#notice {
+  width: 190px;
+  padding: 6px;
+}
 
 aside#notice div.schedule {
   margin: 12px 0;
